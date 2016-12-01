@@ -1,0 +1,35 @@
+{
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"cfenv": "1.0.x", 
+		"basic-auth-connect": "1.0.0",
+        "dotenv": "^2.0.0",
+		"express": "4.13.4",
+		"body-parser": "1.15.1",
+		"watson-developer-cloud": "^1.12.2",
+		"cloudant": "1.4.1",
+		"express-csv": "0.6.0",
+		"nano" : "*",
+		"uuid": "2.0.2",
+		"vcap_services": "^0.2.0"
+	},
+	 "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "codecov": "^1.0.1",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb-es5": "^1.0.9",
+    "eslint-plugin-react": "^5.1.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}
